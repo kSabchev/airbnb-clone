@@ -7,10 +7,10 @@ import Header from './Header.js';
 function App() {
   return (
     <div className="app">
-      <h1>lets build airbnb-clone</h1>
+      {/* <h1>lets build airbnb-clone</h1> */}
       <Header/>
         {/* Search */}
-      <Home/>
+      {/* <Home/> */}
      
     
     
