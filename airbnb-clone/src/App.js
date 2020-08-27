@@ -5,6 +5,15 @@ function App() {
   return (
     <div className="app">
       <h1>lets build airbnb-clone</h1>
+
+    {/* Home */}
+      { /* Header */}
+        {/* Search*/}
+      { /* Banner */}
+      { /* Cards */}
+      { /* Footer */}
+    {/* SearchPage*/}
+      {/*  ...*/}
     </div>
   );
 }
