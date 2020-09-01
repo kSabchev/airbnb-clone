@@ -10,10 +10,7 @@ function App() {
       {/* <h1>lets build airbnb-clone</h1> */}
       <Header/>
         {/* Search */}
-      <Home/>
-     
-    
-    
+      <Home/>    
       { /* Banner */}
       { /* Cards */}
       { /* Footer */}
