@@ -3,6 +3,7 @@ import './App.css';
 import './Home.js';
 import Home from './Home.js';
 import Header from './Header.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Header/>
         {/* Search */}
       <Home/>    
+
+      <Footer />
       { /* Banner */}
       { /* Cards */}
       { /* Footer */}
