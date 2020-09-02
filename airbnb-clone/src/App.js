@@ -1,24 +1,31 @@
 import React from 'react';
 import './App.css';
-import './Home.js';
-import Home from './Home.js';
-import Header from './Header.js';
-import Footer from './Footer.js';
+import Home from './Home'
+import Header from './Header'
+import Footer from './Footer'
+import SearchPage from './SearchPage'
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app">
-      {/* <h1>lets build airbnb-clone</h1> */}
-      <Header/>
-        {/* Search */}
-      <Home/>    
 
-      <Footer />
-      { /* Banner */}
-      { /* Cards */}
-      { /* Footer */}
-    {/* SearchPage*/}
-      {/*  ...*/}
+    // BEM
+    <div className="app">
+      <Router>
+        <Header />
+        
+        <Switch>
+          <Route path="/search">
+            <SearchPage />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        
+        <Footer />
+      </ Router>
     </div>
   );
 }
